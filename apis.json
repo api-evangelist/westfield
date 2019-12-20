@@ -1,0 +1,39 @@
+{
+    "name": "Westfield",
+    "description": "<p>In 2014 Westfield Group split into Westfield Corporation and Scentre Group. Westfield Group was an Australian shopping centre group undertaking ownership, development, design, construction, funds\/asset management, property management, leasing, and marketing activities. The multinational company is listed on the Australian Securities Exchange and has interests in and operates one of the world's largest shopping centre portfolios with investment interests in 103 shopping centres across Australia, the United States, the United Kingdom, New Zealand, Italy and Brazil, encompassing around 23,000 retail outlets and total assets under management in excess of A$63 billion.<\/p>",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/378px-The_Westfield_Group_logo.svg.png",
+    "tags": [
+        "have api"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/westfield\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Westfield APIs",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/378px-The_Westfield_Group_logo.svg.png",
+            "humanURL": "http:\/\/www.westfield.com\/us\/",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/westfield-apis-postman-collection.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Documentation",
+            "url": "https:\/\/api.uat.westfield.io\/"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/www.westfield.com\/us\/"
+        }
+    ]
+}
