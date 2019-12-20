@@ -1,0 +1,866 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "",
+        "title": "Westfield APIs",
+        "description": "",
+        "termsOfService": ""
+    },
+    "servers": [
+        ""
+    ],
+    "paths": [],
+    "components": {
+        "schemas": {
+            "": {
+                "type": "object",
+                "properties": {
+                    "api_version": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "message": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "params": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "base": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "data": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "errors": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "meta": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "self": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "logo": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "href": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "centre": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "ref": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "id": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "name": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "code": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "depth": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "localization": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "_links": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "parent": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "service_type": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "country": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "centre_id": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "short_title": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "long_title": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "description": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "active": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "sort_order": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "url": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "service_locations": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "service_rates": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "service_hours": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "updated_at": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "image": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "attachment_ref": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "detail": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "expiry_date_time": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "featured": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "image_ref": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "img_alt_text": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "notice_id": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "publish_date_time": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "additional_parking_information": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "credit_card_surcharge_amount": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "flat_rate": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "maximum_daily_rate_weekday": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "maximum_daily_rate_weekend": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "overnight_fee_weekday": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "overnight_fee_weekend": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "parking_rates": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "pdf_ref": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "rates_apply": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "type_of_rate": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "valet_parking_instructions": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "hourly_rate_from": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "hourly_rate_to": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "hourly_rate_weekday": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "hourly_rate_weekend": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "latitude": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "longitude": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "radius": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "enabled": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "features": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "geofences": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "hero_image_ref": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "short_name": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "state": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "business_unit_code": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "dining_image_ref": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "dining_image_medium_ref": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "dining_image_small_ref": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "disabled_date": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "email_address": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "enabled_date": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "facebook": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "flavor": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "google_plus": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "instagram": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "micello_community": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "micello_map_centre": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "owner": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "number_of_levels": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "phone_number": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "pinterest": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "postcode": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "street_address": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "suburb": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "timezone": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "today_closed": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "today_closing_time": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "today_opening_time": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "twitter": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "type": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "youtube": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "slug": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "title": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "image_url": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "tags": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "canonical_url": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "seo_title": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "seo_description": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "modified_at": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "_embedded": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "wordpress_id": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "avatar": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "bio": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "facebook_url": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "instagram_url": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "parent_id": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "available_from": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "available_to": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "centre_ids": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "product_ids": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "category_codes": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "relationship": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "persona": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "image_alt": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "start_date": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "end_date": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "nbHits": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "page": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "nbPages": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "processingTimeMS": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "query": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "index": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "hitsPerPage": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "facets": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "hits": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "start": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "finish": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "location": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "external_url": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "external_url_description": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "external_buy_url": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "occurrences": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "date": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "publish": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "started_at": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "retailer_codes": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "categories": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "retailers": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "table_name": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "classification": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "genres": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "synopsis": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "top_cast": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "local_start_time": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "session_type": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "start_time": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "time_zone": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "booking_url": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "cloudinary_public_id": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "quality": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "access_token": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "token_type": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "expires_in": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "created_at": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "client_id": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "metadata": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "uuid": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "identifiers": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "roles": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "access_attributes": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "centres": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "retailer_id": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "password_reset_token": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "deal_id": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "terms_and_conditions": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "deal_stores": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "subtitle": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "urgent": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "state_events": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "publish_date": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "campaigns": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "retailer_logo": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "retailer": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "store_service_id": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "key": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "value": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "store_id": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "hour_type": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "day_of_week": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "opening_time": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "closing_time": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "closed": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "cam_ref": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "campaign_id": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "category_ids": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "currency_code": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "is_enabled": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "lease_id": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "phone_no": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "product_tier": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "product_upload_enabled": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "retailer_code": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "store_profile": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "storefront_ref": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "accepts_giftcards": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "dining_cuisine": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "dining_price_guide": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "lease_number": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "level": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "level_span": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "major": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "micello_geom_id": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "products": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "salience": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "shop_number": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "store_front_image_ref": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "updated_date": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "dining": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "store_front": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            }
+        }
+    }
+}
